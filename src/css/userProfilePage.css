@@ -1,0 +1,52 @@
+.profilePage{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+}
+.userDetail{
+    display: flex;
+    justify-content: center;
+    align-items: unset;
+    flex-direction: column;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.edituserpage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #090909ed;
+    position: absolute;
+    top: -42px;
+
+}
+
+ .edituserpage .form{
+     background: #ffffff45;
+     backdrop-filter: blur(11px);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 58%;
+    height: fit-content;
+    padding: 79px 0px;
+}
+.form-group{
+    width: 68%;
+    
+}
+.form-group input{
+    width: 100%;
+}

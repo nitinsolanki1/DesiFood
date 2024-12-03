@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color:black;
+}
+.loginpage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpapercave.com/wp/wp7845939.jpg");
+
+
+}
+
+ .loginpage .form{
+     background: #ffffff45;
+     backdrop-filter: blur(11px);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:black;
+    width: 34%;
+    height: fit-content;
+    padding: 10px 0px;
+}
+.form-group{
+    width: 68%;
+    
+}
+.form-group input{
+    width: 100%;
+}
+
+.form-group label,Link{
+    color: black;
+}

@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+/* Warm Beige (#f5f5dc): This soft, neutral color gives a clean and modern look while allowing food images and text to stand out.
+
+Muted Olive Green (#808000): Olive green is associated with freshness and health, making it a great choice for a food-centric site.
+
+Coral (#ff6f61): A vibrant coral can evoke a sense of excitement and hunger, as warm colors like this are known to stimulate the appetite.
+
+Soft Terracotta (#e07a5f): A warm, earthy tone that feels welcoming and comforting, perfect for a cozy food ordering experience.
+
+Light Sage (#c2d1bf): A calming green shade that gives a fresh, clean vibe, which can be appealing in a food context. */
+.app{
+  background-color:#f5f5dc ;
+
+}
+.navbar{
+  z-index: 99;
+  /* background: #ffffff17; */
+  background-color: #f3f374ba;
+  backdrop-filter: blur(3px);
+  outline: none;
+  z-index: 99;
+}
+
+
+
+.page1 {
+  height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+  
+}
+
+
+.searchBar{
+  height: 5vh;
+  width: 48vw;
+  position: absolute;
+  top: 73%;
+  z-index: 99;
+  left: 29%;
+  border-radius: 3px;
+  border: none;
+  padding: 13px;
+  background: #eade7017;
+  box-shadow: 2px 0px 10px 1px #b5b255 inset;
+  backdrop-filter: blur(3px);
+  border: 1px solid wheat;
+  outline: none;
+  color: white;
+  font-family: cursive;
+  font-size: 1.3rem;
+}
+.page{
+  padding-top: 20px;
+  height: 80vh;
+  width: 100%;
+  /* background-color: bisque; */
+}
+.register-form .label {
+  color: gray;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 41px;
+  gap: 17px;
+}
+
+.order {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.botderblack {
+  border-radius: 10px;
+  /* border: 1px solid black; */
+}
+.botderblack:hover {
+  border-radius: 10px;
+  background-color: olive;
+  color: white;
+  /* border: 1px solid black; */
+}
+
+.cardpage-title {
+   /* border-bottom: 1px solid #ababab; */
+  padding-bottom: 13px;
+  margin: 0px 5px;
+  border-radius: 15px;
+  box-shadow: 4px 3px 6px 4px gray
+}
+
+.card{
+  background-color: #f3f374ba;
+  
+}
+
+.form {
+  height: 47vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgba(10, 9, 9, 0.11);
+}
+.form input {
+  width: 69%;
+  border-radius: 6px;
+  border: none;
+  margin: 10px 0px;
+}
+
+.fotter{
+  position: relative;
+  bottom: -60px;
+  background: black;
+  padding: 4px 26px;
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.loginpage{
+  height: 80vh;
+}
+
+.loginpage  > .row {
+  height: 84%;
+}
